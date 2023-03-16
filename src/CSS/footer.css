@@ -1,0 +1,46 @@
+.section-footer {
+  width: 1400px;
+  height: 454px;
+  top: 2832px;
+  left: 0px;
+  text-align: center;
+  padding: 100px;
+  width: 100%;
+}
+.section1-footer h2 {
+  font-family: "Inter";
+  color: #4731d3;
+  font-size: 38px;
+}
+.section1-footer p {
+  font-family: "Inter";
+  width: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.section1-footer h3 {
+  font-family: "Inter";
+  width: 500;
+  font-size: 20px;
+  line-height: 24.2px;
+  letter-spacing: 5%;
+  color: #4731d3;
+  text-decoration: underline;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+
+  width: 212px;
+  height: 40px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  transform: translateX(83vh);
+}
