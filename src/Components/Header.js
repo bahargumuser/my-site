@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <section className="section-display">
       <header>almila</header>
-      <div className="00">
+      <div className="hero">
         <div className="heroleft">
           <h1>I'm a Frontend Developer...</h1>
           <p className="heroleftP">
@@ -16,7 +16,7 @@ const Header = () => {
           </p>
           <Button />
         </div>
-        <img src={headerPic} alt="Header Picture" className="0" />
+        <img src={headerPic} alt="Header Picture" className="headerImage" />
         <header id="hiddenAlmila">almila</header>
       </div>
     </section>
