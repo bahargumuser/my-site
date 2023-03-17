@@ -27,9 +27,11 @@ const Profile = () => {
         <h3>About Me</h3>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut,
-          odit laborum aliquam voluptatum nisi mollitia. Mnima accusamus ratione
-          soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus
-          cumque magnam!
+          odit laborum aliquam voluptatum nisi mollitia.{" "}
+        </p>
+        <p>
+          Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod
+          deserunt quam temporibus cumque magnam!
         </p>
       </div>
     </section>

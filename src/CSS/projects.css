@@ -7,6 +7,7 @@
   justify-content: space-around;
   flex-wrap: wrap;
   padding-top: 10vh;
+  padding-bottom: 10vh;
 }
 .section-profile-header {
   color: #4832d3;
@@ -28,8 +29,6 @@
   border-radius: 25px;
   margin-top: 15px;
   justify-content: space-between;
-}
-.project-card-container img {
 }
 
 .text-card {

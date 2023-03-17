@@ -4,7 +4,7 @@
 }
 .section-display {
   margin: 0px;
-  padding: 0px;
+  padding: 50px;
   width: 100vw;
   background-color: #3730a3;
   min-height: 100vh;
@@ -46,7 +46,7 @@ header {
 }
 .headerImage {
   width: 380px;
-  transform: translateX(55vw) translateY(-15vh);
+  transform: translateX(49vw) translateY(-9vh);
 }
 .hero {
   width: 120%;
@@ -139,13 +139,10 @@ button {
     flex-direction: column-reverse;
     justify-content: space-around;
     align-items: center;
-
-    background: rgba(201, 190, 190, 0.23);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(4.8px);
-    -webkit-backdrop-filter: blur(4.8px);
-    border: 1px solid rgba(201, 190, 190, 0.3);
+  }
+  .buttonContainer button {
+    align-items: center;
+    transform: translateY(-100vh) translateY(-200vh);
   }
   .headerImage {
     transform: unset;

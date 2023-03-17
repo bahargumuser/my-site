@@ -1,5 +1,8 @@
 .section-profile {
   padding-bottom: 10vh;
+  padding: 20px;
+  padding-left: 150px;
+  padding-right: 150px;
   width: 100vw;
   height: 70vh;
   min-height: 70vh;
@@ -13,7 +16,7 @@
 .section-profile h1 {
   color: #cbf281;
   font-family: "Inter";
-  font-size: 58px;
+  font-size: 48px;
   letter-spacing: 2px;
   line-height: 72px;
 }
@@ -29,7 +32,7 @@
 }
 .profile-left p {
   font-family: "Inter";
-  font-size: 20px;
+  font-size: 15px;
   margin-top: 20px;
   font-weight: 200;
   color: white;
@@ -41,7 +44,7 @@
 .section-profile h3 {
   color: white;
   font-family: "Inter";
-  font-size: 35px;
+  font-size: 30px;
   letter-spacing: 2px;
   line-height: 30px;
   margin-top: 20px;
@@ -49,7 +52,9 @@
 .About-Me p {
   max-width: 25vw;
   color: white;
-  font-size: 20px;
+  font-size: 15px;
+  font-family: "Inter";
+  padding-top: 25px;
 }
 /* responsive */
 
@@ -81,27 +86,34 @@
 }
 @media only screen and (max-width: 1160px) {
   .section-profile {
-    padding-top: 0vh;
-    height: 180vh;
+    padding-top: -1vh;
+    margin-inline-start: 0%;
+    height: 150vh;
     min-height: 100vh;
     align-items: center;
     text-align: center;
     flex-direction: column;
     flex-wrap: unset;
+    transform: translateY(10vh);
   }
   .profile-left {
     transform: unset;
-    width: 80vw;
+    width: 1180vw;
+    height: 150px;
+    padding-top: -10vh;
   }
   .section-profile h1 {
     transform: unset;
   }
   .About-Me h3 {
-    margin-top: 0px;
+    padding-bottom: 10px;
   }
   .About-Me p {
-    width: 100vw;
-    margin-top: 5vh;
-    max-width: unset;
+    min-height: min-content;
+    width: 30vw;
+    margin-top: 1vh;
+    padding-bottom: -20vh;
+    padding-block: 2px;
+    padding-top: -20vh;
   }
 }
